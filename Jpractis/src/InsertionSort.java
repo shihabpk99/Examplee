@@ -16,7 +16,8 @@ public class InsertionSort {
 				arr[j+1]=arr[j];
 				j--;
 			}
-			arr[j+1]=k;
+			arr[j+1]=k;		
+			
 		}
 		
 		for(int i=0; i<arr.length; i++) {
